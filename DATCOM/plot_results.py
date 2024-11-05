@@ -85,7 +85,7 @@ def plot_individual_metrics_vs_mach(df, metrics=None, save_path='plots/'):
         plt.savefig(f'{save_path}{metric}_vs_MACH.eps', format='eps')
         plt.savefig(f'{save_path}{metric}_vs_MACH.pdf', format='pdf')
             
-        plt.show()
+        #plt.show()
 
 columns_to_write = ['MACH', 'ALPHA', 'CA', 'CN', 'CM']
 df.to_csv('MACH_ALPHA_CA_CN_CM.csv', columns=columns_to_write, index=False)

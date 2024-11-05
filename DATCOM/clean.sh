@@ -1,4 +1,4 @@
-rm *.csv
+#rm *.csv
 rm for006_no_plume.dat
 rm for003.dat
 rm for006.dat
