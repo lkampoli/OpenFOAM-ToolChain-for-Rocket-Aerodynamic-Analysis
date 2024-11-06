@@ -15,7 +15,7 @@ dynamicCode
 *.hdf
 *.out
 *.pyc
-
+*.zip
 
 # Ignore every stl file EXCEPT FOR the ones in the 'rocketMesh/___/___/parts' folder
 !rocketMesh/rocketShort/noFinSupport/parts/*.stl
