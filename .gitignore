@@ -21,6 +21,7 @@ dynamicCode
 *.csv
 *.ipynb_checkpoints
 *.msh
+*.vtp
 */polyMesh/*
 # Ignore every stl file EXCEPT FOR the ones in the 'rocketMesh/___/___/parts' folder
 !rocketMesh/rocketShort/noFinSupport/parts/*.stl
