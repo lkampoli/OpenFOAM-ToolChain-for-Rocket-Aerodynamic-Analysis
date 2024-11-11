@@ -16,6 +16,9 @@ dynamicCode
 *.out
 *.pyc
 *.zip
-
+*.txt
+*.dat
+*.csv
+*.ipynb_checkpoints
 # Ignore every stl file EXCEPT FOR the ones in the 'rocketMesh/___/___/parts' folder
 !rocketMesh/rocketShort/noFinSupport/parts/*.stl
