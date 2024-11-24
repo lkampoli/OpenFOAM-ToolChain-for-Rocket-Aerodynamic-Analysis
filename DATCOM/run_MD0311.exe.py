@@ -1,16 +1,5 @@
 import subprocess
 
-## Call the Bash script
-#result = subprocess.run(['./clean.sh'], capture_output=True, text=True)
-#
-## Print the output
-#print("Output from the Bash script:")
-#print(result.stdout)
-#
-## Check for errors
-#if result.returncode != 0:
-#    print("Error:", result.stderr)
-
 def run_executable_with_wine(executable_path):
     try:
         # Command to run the executable with Wine
